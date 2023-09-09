@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
+    />
+    <title>Tailwind CSS</title>
+
+    <style>
+      #p-section {
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="flex justify-between items-center relative">
+      <div class="font-bold text-xl p-3">FS.</div>
+      <div class="font-bold text-uppercase">
+        <a href="#" class="p-3">Home</a>
+        <a href="#" class="p-3">Product</a>
+        <a href="#" class="p-5">Contact</a>
+      </div>
+      <div class="">
+        <a href="#" class="p-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#" class="p-3"><i class="fa-solid fa-user-astronaut"></i></a>
+        <a href="#" class="p-3"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </header>
+
+    <section class="flex justify-center items-center" id="p-section">
+      <div class="w-1/2 pl-20">
+        <h1 class="font-bold text-6xl">Clothes</h1>
+        <p class="font-light py-7">
+          The Nike Sportsware Tech AeroLoft 3-in-1 Women's Parka helps <br />
+          you to adapt to any kind of weather.
+        </p>
+        <div class="flex">
+          <button class="w-12 h-12 rounded-full bg-orange-500 text-white">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <h5 class="pl-4 pt-2">watch video</h5>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <img
+          src="https://i.pinimg.com/originals/af/03/35/af0335be2cc5050efa03f5c594e8b702.png"
+          alt="pic"
+          class="bg-transparent"
+        />
+      </div>
+    </section>
+  </body>
+</html>
